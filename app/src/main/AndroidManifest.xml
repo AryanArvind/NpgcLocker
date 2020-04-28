@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.npgclocker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FacultyPage"
+            android:label="@string/title_activity_faculty_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".StudentDashboard" />
+        <activity
+            android:name=".MainDashboard"
+            android:label="@string/title_activity_main_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FacultyDashboard" />
+        <activity android:name=".UserDashboard" />
+        <activity android:name=".FacultyLogin" />
+        <activity android:name=".ChoiceSelection" />
+        <activity android:name=".SplashMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StudentSignin" />
+        <activity android:name=".StudentSignup" />
+    </application>
+
+</manifest>
